@@ -629,7 +629,7 @@ const SignUp = (props) => {
                             },
                         ]}
                     />
-                    <Button style={{marginLeft: "60%"}} mode={'contained'} onPress={props.navigation.navigate("home")}>
+                    <Button style={{marginLeft: "60%"}} mode={'contained'} onPress={handleSubmit(() => props.navigation.navigate("Home")) }>
                         Submit
                     </Button>
                 </Fragment>

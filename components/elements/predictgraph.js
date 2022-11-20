@@ -27,13 +27,13 @@ const StackedGraph = (props) => {
                                 ticks: {stroke: "transparent"},
                                 tickLabels: { fill:"transparent"}
                             }}
+                            label={"Days of month"}
                         />
                         <VictoryAxis
                             dependentAxis
                             style={{
                                 grid: { stroke: '#8d8d8d', strokeWidth: 0.5, strokeDasharray: "5,5" },
                             }}
-
                         />
                         <VictoryStack
                             colorScale={[colors.primary, colors.secondary, colors.onPrimaryContainer, colors.onSecondaryContainer, colors.tertiary,

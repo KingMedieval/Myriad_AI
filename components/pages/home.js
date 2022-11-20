@@ -22,8 +22,11 @@ const Home = () => {
                 <Chip icon={"information"} style={style.chip}>{month[d.getMonth()]} spending: $3,660.00</Chip>
                 <Chip icon={"information"} style={style.chip}>AI estimate monthly budget left: $131.00</Chip>
                 <LineGraph lgTitle={`${month[d.getMonth()]} vs. Last Month`}/>
-
+                <Chip icon={"information"} style={style.chip}>You will spend $3,660 to $4,370 by the end</Chip>
                 <StackedGraph pgTitle={"Next Month Prediction"} />
+                <Chip icon={"information"} style={style.chip}>Predicted increase in utility bills.</Chip>
+                <Chip icon={"information"} style={style.chip}>Predicted decrease in spending for biking.</Chip>
+                <Chip icon={"information"} style={style.chip}>Predicted increase in spending for skiing.</Chip>
                 <Summarybox
                     ifHobby={"This month you spent more on "}
                     hobbyColor={colors.primary}

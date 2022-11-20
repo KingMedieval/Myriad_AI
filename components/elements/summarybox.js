@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet, TextInput, Text } from "react-native";
 import { Card } from "react-native-paper";
 
-const App = (props) => {
+const Summarybox = (props) => {
     return (
         <View>
             <Card.Title
@@ -29,14 +29,11 @@ const App = (props) => {
 const styles = StyleSheet.create({
     screen: {
         display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
         marginHorizontal: "5%",
         marginBottom: "2.5%",
-        minHeight: "10%",
         padding: "5%"
-    },
+    }
 
 });
 
-export default App;
+export default Summarybox;
